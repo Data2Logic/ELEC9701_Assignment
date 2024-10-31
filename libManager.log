@@ -331,3 +331,5 @@
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrResizeWindow(cdsLibManager list(-1 27 1022 911))
+\a nrResizeWindow(cdsLibManager list(-1 27 1638 745))
