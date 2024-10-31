@@ -1,0 +1,101 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = ELEC9701_Assignments
+	Cell         = Inveter_tb
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = ExplorerRun.0
+	Results DB   = /home/eleccds/cadence/ELEC9701_Assignments/Inveter_tb/maestro/results/maestro/ExplorerRun.0.rdb
+	Results Dir  = /home/eleccds/simulation/ELEC9701_Assignments/Inveter_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Inveter_tb:1
+	Results Loc  = /home/eleccds/simulation/ELEC9701_Assignments/Inveter_tb/maestro/results/maestro
+	Project Dir  = /home/eleccds/simulation
+	Setup DB loc = /home/eleccds/cadence/ELEC9701_Assignments/Inveter_tb/maestro
+	File Encoding = 0
+
+
+*Info*    The simulation mode in Spectre has been changed from
+          'interactive' to 'batch' mode because ICLP.
+
+
+*Info*    The auto suspension is disabled.
+
+Loading monte.cxt 
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          ELEC9701_Assignments:Inveter_tb:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/eleccds/simulation/ELEC9701_Assignments/Inveter_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Inveter_tb:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/eleccds/simulation/ELEC9701_Assignments/Inveter_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Inveter_tb:1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Loading seCore.cxt 
+Initializing the control file using cp:
+    cp /usr/local/cadence/IC617-500-23/tools.lnx86/dfII/etc/si/control.spectre /home/eleccds/simulation/ELEC9701_Assignments/Inveter_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Inveter_tb:1/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting Oct 31 16:11:10 2024
+End netlisting Oct 31 16:11:10 2024
+
+Netlisting Statistics:
+	Number of components:    6
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          ELEC9701_Assignments:Inveter_tb:1 ] for Point ID (0 1).
+
+Delete psf data in /home/eleccds/simulation/ELEC9701_Assignments/Inveter_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Inveter_tb:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+ERROR (WIA-1006): Unable to plot expression <IT("/I0/VDD")>
+           because it does not evaluate to an object that can be plotted, like a waveform or
+           parametric wave. See the Visualization & Analysis Tool documentation for information
+           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+           the expressions that evaluate to those objects can be plotted.
+
+*Info*    Run complete for Point ID (0 1) on testbench [
+          ELEC9701_Assignments:Inveter_tb:1 ].
+
+
+
+
+

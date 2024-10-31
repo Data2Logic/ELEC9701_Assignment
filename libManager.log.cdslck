@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      eleccds
+HostName                       CadenceVM
+ProcessIdentifier              3756
+ProcessCreationTime_UTC        1730347522
+ProcessCreationTime_Readable   Thu Oct 31 15:05:22 2024 AEDT
+AppIdentifier                  /usr/local/cadence/IC617-500-23/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/eleccds/cadence/libManager.log
+TimeEditLocked                 Thu Oct 31 15:05:23 2024 AEDT
