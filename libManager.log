@@ -1,138 +1,40 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-mpssession virtuoso3096 -mpshost localhost.localdomain 
+\o Arguments:		-mpssession virtuoso15150 -mpshost localhost.localdomain 
 \o Working Directory:	localhost.localdomain:/home/eleccds/cadence
 \o 64-bit offsets
 \o Qt version: 		4.8.5
 \o Log file is "/home/eleccds/cadence/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(-10 20 1516 629))
+\a nrResizeWindow(cdsLibManager list(-1 27 1920 885))
 \o changeWorkingDir("/home/eleccds/cadence") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
-\a cdsLibManager->libListBox->value = "analogLib"
-\a cdsLibManager->libLineEdit->value = "analogLib"
-\a cdsLibManager->libListBox->value = "basic"
-\a cdsLibManager->libLineEdit->value = "basic"
-\a cdsLibManager->libListBox->value = "cdsDefTechLib"
-\a cdsLibManager->libLineEdit->value = "cdsDefTechLib"
-\a cdsLibManager->libListBox->value = "US_8ths"
-\a cdsLibManager->libLineEdit->value = "US_8ths"
-\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
-\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
-\a cdsLibManager->libListBox->value = "NCSU_TechLib_FreePDK45"
-\a cdsLibManager->libLineEdit->value = "NCSU_TechLib_FreePDK45"
-\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
-\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
-\a cdsLibManager->libListBox->value = "NCSU_TechLib_FreePDK45"
-\a cdsLibManager->libLineEdit->value = "NCSU_TechLib_FreePDK45"
-\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
-\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
-\a cdsLibManager->copySimpleButton->value = t
-\a basicCopyForm->CategoryCellsEdit->value = "*"
-\a basicCopyForm->CellsSkipLibraries->value = t
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->ViewsSkipLibraries->value = t
-\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
-\a basicCopyForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
-\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "NCSU_TechLib_FreePDK45 US_8ths analogLib basic cdsDefTechLib"
-\a basicCopyForm->ViewsSkipLibrariesEdit->value = "NCSU_TechLib_FreePDK45 US_8ths analogLib basic cdsDefTechLib"
-\a nrSetWindowVisibility(basicCopyForm "show")
-\a nrSetCurrentWindow(basicCopyForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(basicCopyForm list(597 107 303 367))
+\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
+\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
 \a cdsLibManager->FileNewLibButton->value = t
 \a nrSetWindowVisibility(NewLibShell "show")
 \a NewLibShell->QLineEdit2->value = "/home/eleccds/cadence/"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(NewLibShell)
 \a nrSetCurrentWindow(NewLibShell->subDialog)
-\a nrResizeWindow(NewLibShell list(495 43 507 559))
-\a NewLibShell->newLibCancelButton->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(-10 20 1638 745))
-\a cdsLibManager->FileNewLibButton->value = t
-\a NewLibShell->QLineEdit2->value = ""
-\a nrSetWindowVisibility(NewLibShell->subDialog "show")
-\a nrSetWindowVisibility(NewLibShell "show")
-\a NewLibShell->QLineEdit2->value = "/home/eleccds/cadence/"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(NewLibShell)
-\a nrSetCurrentWindow(NewLibShell->subDialog)
-\a nrResizeWindow(NewLibShell list(556 82 507 559))
-\a NewLibShell->QLineEdit2->value = "/"
-\a NewLibShell->QLineEdit2->value = "/home/eleccds/cadence/"
-\a NewLibShell->newLibNameText->value = "ELEC9701_Assignments"
-\a NewLibShell->newLibOKButton->value = t
-\a NewLibShell->subDialog->value = '("/home/eleccds/cadence" "/home/eleccds/cadence/")
-\a nrSetWindowVisibility(workingDialogForm "show")
-\o Created new library "ELEC9701_Assignments" at /home/eleccds/cadence/ELEC9701_Assignments.
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
-\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(626 331 366 133))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
-\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a lmgrLogShowPopup("mainListPopup0" 108 13 2 "ELEC9701_Assignments")
-\a lmgrLogShowPopup("mainListPopup0" 109 11 2 "ELEC9701_Assignments")
-\a cdsLibManager->editRenameButton->value = t
-\a basicRenameForm->basicRenameFromEdit->value = "ELEC9701_Assignments"
-\a nrSetWindowVisibility(basicRenameForm "show")
-\a basicRenameForm->basicRenameToEdit->value = "ELEC9701_Assignments"
-\a nrSetCurrentWindow(basicRenameForm)
-\a nrResizeWindow(basicRenameForm list(638 207 343 182))
-\a basicRenameForm->OK->value = t
-\o Checking rename library for access locks.
-\o ERROR (CLM-222): Library ELEC9701_Assignments already exists. \nSpecify another library to rename to.
-\a nrSetWindowVisibility(errorDialog "show")
-\a nrSetCurrentWindow(errorDialog)
-\a nrResizeWindow(errorDialog list(655 339 308 122))
-\a errorDialog->errorOkButton->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(basicRenameForm)
-\a basicRenameForm->Cancel->value = t
+\a nrResizeWindow(NewLibShell list(697 128 507 559))
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->FileNewCVButton->value = t
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->FileNewCVButton->value = t
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = nil
-\a nrListItemAction(cdsLibManager->libListBox "ELEC9701_Assignments" 0)
-\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = nil
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellListBox->value = "Inveter"
-\a cdsLibManager->cellLineEdit->value = "Inveter"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->FileNewCVButton->value = t
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewSearchOptionsButton->value = t
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Inveter"
-\a cdsLibManager->cellLineEdit->value = "Inveter"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Comparator_Basis"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -145,20 +47,8 @@
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
 \a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellListBox->value = "Inveter"
-\a cdsLibManager->cellLineEdit->value = "Inveter"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Inveter"
-\a cdsLibManager->cellLineEdit->value = "Inveter"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "Comparator_Basis"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -167,61 +57,146 @@
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 94 21 2 "Comparator_Basis_tb")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(636 249 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(782 302 334 334))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "Comparator_Basis_tb" from library "ELEC9701_Assignments".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\o Deleted cell 'ELEC9701_Assignments/Comparator_Basis_tb'.
+\o Deletion of 1 cell done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(826 315 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
 \a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellListBox->value = "Inveter"
-\a cdsLibManager->cellLineEdit->value = "Inveter"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup0" 113 10 2 "ELEC9701_Assignments")
-\a cdsLibManager->editPropertiesButton->value = t
-\o MPS request: edit property
-\a cdsLibManager->cellListBox->value = "Inveter"
-\a cdsLibManager->cellLineEdit->value = "Inveter"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = "analogLib"
-\a cdsLibManager->libLineEdit->value = "analogLib"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellListBox->value = "Inveter"
-\a cdsLibManager->cellLineEdit->value = "Inveter"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 133 127 2 "")
 \a cdsLibManager->FileNewCVButton->value = t
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Inveter_tb"
-\a cdsLibManager->cellLineEdit->value = "Inveter_tb"
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a lmgrLogShowPopup("mainListPopup1" 79 25 2 "Comparator_Basis_tb")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(626 241 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(772 294 334 334))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "Comparator_Basis_tb" from library "ELEC9701_Assignments".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\o Deleted cell 'ELEC9701_Assignments/Comparator_Basis_tb'.
+\o Deletion of 1 cell done.
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(826 315 268 133))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
+\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->cellListBox->value = "Comparator_Basis"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->cellListBox->value = "Inveter"
+\a cdsLibManager->cellLineEdit->value = "Inveter"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 106 23 2 "Comparator_Basis_tb")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 122 20 2 "Comparator_Basis_tb")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(616 233 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(762 286 334 334))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "Comparator_Basis_tb" from library "ELEC9701_Assignments".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\o Deleted cell 'ELEC9701_Assignments/Comparator_Basis_tb'.
+\o Deletion of 1 cell done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(826 315 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
+\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Inveter_tb"
-\a cdsLibManager->cellLineEdit->value = "Inveter_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
@@ -232,41 +207,44 @@
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
 \a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellListBox->value = "Inveter_tb"
-\a cdsLibManager->cellLineEdit->value = "Inveter_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Inveter"
-\a cdsLibManager->cellLineEdit->value = "Inveter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "Inveter_tb"
-\a cdsLibManager->cellLineEdit->value = "Inveter_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "Inveter"
 \a cdsLibManager->cellLineEdit->value = "Inveter"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->cellListBox->value = "Inveter_tb"
 \a cdsLibManager->cellLineEdit->value = "Inveter_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Inveter"
+\a cdsLibManager->cellLineEdit->value = "Inveter"
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 86 26 2 "Comparator_Basis_tb")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
@@ -277,36 +255,24 @@
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
 \a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellListBox->value = "Inveter_tb"
-\a cdsLibManager->cellLineEdit->value = "Inveter_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Inveter"
-\a cdsLibManager->cellLineEdit->value = "Inveter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "Inveter_tb"
-\a cdsLibManager->cellLineEdit->value = "Inveter_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Inveter_tb"
-\a cdsLibManager->cellLineEdit->value = "Inveter_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
@@ -317,19 +283,77 @@
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
 \a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "Inveter_tb"
 \a cdsLibManager->cellLineEdit->value = "Inveter_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 131 30 2 "Inveter_tb")
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 3 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
+\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
+\a cdsLibManager->cellListBox->value = "Inveter_tb"
+\a cdsLibManager->cellLineEdit->value = "Inveter_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\a nrResizeWindow(cdsLibManager list(-1 27 1022 911))
-\a nrResizeWindow(cdsLibManager list(-1 27 1638 745))
+\a cdsLibManager->cellListBox->value = "Comparator_Basis_tb"
+\a cdsLibManager->cellLineEdit->value = "Comparator_Basis_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 103 24 2 "Comparator_Basis_tb")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(606 225 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(752 278 334 334))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "Comparator_Basis_tb" from library "ELEC9701_Assignments".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\o Deleted cell 'ELEC9701_Assignments/Comparator_Basis_tb'.
+\o Deletion of 1 cell done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(826 315 268 133))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
+\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\o libManager is exiting.

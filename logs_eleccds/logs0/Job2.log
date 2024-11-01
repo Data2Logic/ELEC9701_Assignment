@@ -26,13 +26,12 @@
 
 *Info*    The auto suspension is disabled.
 
-Loading monte.cxt 
 
 
 
 
 
-*Info*    Run start for Point ID (0 1) on testbench [
+*Info*    Run start for Point ID (1 1) on testbench [
           ELEC9701_Assignments:Inveter_tb:1 ].
 
 Resetting statistical vars
@@ -49,28 +48,20 @@ Setting temp(T) = 27
           /home/eleccds/simulation/ELEC9701_Assignments/Inveter_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Inveter_tb:1
 
 
-*Info*    Creating Netlist for Point ID (0 1)
+*Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Loading seCore.cxt 
-Initializing the control file using cp:
-    cp /usr/local/cadence/IC617-500-23/tools.lnx86/dfII/etc/si/control.spectre /home/eleccds/simulation/ELEC9701_Assignments/Inveter_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Inveter_tb:1/netlist/control
-Copying Spectre source file 'spectre.inp'
-Copying Spectre command file 'spectre.sim'
-Begin Incremental Netlisting Oct 31 16:11:10 2024
-End netlisting Oct 31 16:11:10 2024
+Begin Incremental Netlisting Nov  1 21:34:02 2024
+End netlisting Nov  1 21:34:02 2024
 
-Netlisting Statistics:
-	Number of components:    6
-
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          ELEC9701_Assignments:Inveter_tb:1 ] for Point ID (0 1).
+          ELEC9701_Assignments:Inveter_tb:1 ] for Point ID (1 1).
 
 Delete psf data in /home/eleccds/simulation/ELEC9701_Assignments/Inveter_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Inveter_tb:1/psf.
 compose simulator input file...
@@ -81,20 +72,12 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-INFO (ADE-3071): Simulation completed successfully.
-reading simulation data...
-      ...successful.
-*Info*    Client has finished evaluating ... 
+ERROR (EXPLORER-2404): Cannot find a setup database entry for handle 0.
+Provide a valid database handle and try again.
 
-ERROR (WIA-1006): Unable to plot expression <IT("/I0/VDD")>
-           because it does not evaluate to an object that can be plotted, like a waveform or
-           parametric wave. See the Visualization & Analysis Tool documentation for information
-           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-           the expressions that evaluate to those objects can be plotted.
 
-*Info*    Run complete for Point ID (0 1) on testbench [
-          ELEC9701_Assignments:Inveter_tb:1 ].
-
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Failed to launch the simulation.
 
 
 

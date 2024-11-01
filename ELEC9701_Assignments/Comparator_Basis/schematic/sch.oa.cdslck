@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      eleccds
+HostName                       localhost.localdomain
+ProcessIdentifier              15150
+ProcessCreationTime_UTC        1730452536
+ProcessCreationTime_Readable   Fri Nov  1 20:15:36 2024 AEDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/eleccds/cadence/ELEC9701_Assignments/Comparator_Basis/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Nov  1 20:16:00 2024 AEDT

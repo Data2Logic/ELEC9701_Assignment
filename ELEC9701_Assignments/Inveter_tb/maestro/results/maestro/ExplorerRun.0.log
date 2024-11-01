@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Thu Oct 31 16:11:10 2024 
+Current time: Fri Nov  1 21:34:02 2024 
 Best design point: 1
 Design specs: 
 	ELEC9701_Assignments:Inveter_tb:1	corner	Nominal - 
@@ -8,6 +8,6 @@ Design parameters:
 
 ExplorerRun.0
 Number of points completed: 1
-Number of simulation errors: 0
+Number of simulation errors: 1
 ExplorerRun.0 completed. 
-Current time: Thu Oct 31 16:11:13 2024 
+Current time: Fri Nov  1 21:34:02 2024 
