@@ -26,13 +26,12 @@
 
 *Info*    The auto suspension is disabled.
 
-Loading monte.cxt 
 
 
 
 
 
-*Info*    Run start for Point ID (0 1) on testbench [
+*Info*    Run start for Point ID (2 1) on testbench [
           ELEC9701_Assignments:Input_Buffer_Differential_tb:1 ].
 
 Resetting statistical vars
@@ -52,16 +51,11 @@ Setting temp(T) = 27
           /home/eleccds/simulation/ELEC9701_Assignments/Input_Buffer_Differential_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Input_Buffer_Differential_tb:1
 
 
-*Info*    Creating Netlist for Point ID (0 1)
+*Info*    Creating Netlist for Point ID (2 1)
 
 generate netlist...
-Loading seCore.cxt 
-Initializing the control file using cp:
-    cp /usr/local/cadence/IC617-500-23/tools.lnx86/dfII/etc/si/control.spectre /home/eleccds/simulation/ELEC9701_Assignments/Input_Buffer_Differential_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Input_Buffer_Differential_tb:1/netlist/control
-Copying Spectre source file 'spectre.inp'
-Copying Spectre command file 'spectre.sim'
-Begin Incremental Netlisting Nov  7 22:29:17 2024
-End netlisting Nov  7 22:29:17 2024
+Begin Incremental Netlisting Nov  7 22:32:29 2024
+End netlisting Nov  7 22:32:29 2024
 
 Netlisting Statistics:
 	Number of components:   18
@@ -74,7 +68,7 @@ compose simulator input file...
 
 *Info*    Running simulation on testbench [
           ELEC9701_Assignments:Input_Buffer_Differential_tb:1 ] for
-          Point ID (0 1).
+          Point ID (2 1).
 
 Delete psf data in /home/eleccds/simulation/ELEC9701_Assignments/Input_Buffer_Differential_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Input_Buffer_Differential_tb:1/psf.
 compose simulator input file...
@@ -91,7 +85,7 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (0 1) on testbench [
+*Info*    Run complete for Point ID (2 1) on testbench [
           ELEC9701_Assignments:Input_Buffer_Differential_tb:1 ].
 
 
