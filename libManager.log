@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-mpssession virtuoso4132 -mpshost localhost.localdomain 
+\o Arguments:		-mpssession virtuoso5146 -mpshost localhost.localdomain 
 \o Working Directory:	localhost.localdomain:/home/eleccds/cadence
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -12,8 +12,48 @@
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
+\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = "analogLib"
+\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
+\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Differential_Comparator"
+\a cdsLibManager->cellLineEdit->value = "Differential_Comparator"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 2 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
+\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
+\a cdsLibManager->cellListBox->value = "Differential_Comparator"
+\a cdsLibManager->cellLineEdit->value = "Differential_Comparator"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cds_logo_widget_name_cds->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a _lmgrCloseIconify("cdsLibManager" 1)
-\o MPS service: shutdown
 \o libManager is exiting.
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a exit(0)

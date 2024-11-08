@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = ELEC9701_Assignments
-	Cell         = Input_Buffer_Differential_tb
+	Cell         = Differential_Comparator_tb
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
 	State Name   = ExplorerRun.0
-	Results DB   = /home/eleccds/cadence/ELEC9701_Assignments/Input_Buffer_Differential_tb/maestro/results/maestro/ExplorerRun.0.rdb
-	Results Dir  = /home/eleccds/simulation/ELEC9701_Assignments/Input_Buffer_Differential_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Input_Buffer_Differential_tb:1
-	Results Loc  = /home/eleccds/simulation/ELEC9701_Assignments/Input_Buffer_Differential_tb/maestro/results/maestro
+	Results DB   = /home/eleccds/cadence/ELEC9701_Assignments/Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0.rdb
+	Results Dir  = /home/eleccds/simulation/ELEC9701_Assignments/Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Differential_Comparator_tb:1
+	Results Loc  = /home/eleccds/simulation/ELEC9701_Assignments/Differential_Comparator_tb/maestro/results/maestro
 	Project Dir  = /home/eleccds/simulation
-	Setup DB loc = /home/eleccds/cadence/ELEC9701_Assignments/Input_Buffer_Differential_tb/maestro
+	Setup DB loc = /home/eleccds/cadence/ELEC9701_Assignments/Differential_Comparator_tb/maestro
 	File Encoding = 0
 
 
@@ -32,33 +32,35 @@
 
 
 *Info*    Run start for Point ID (2 1) on testbench [
-          ELEC9701_Assignments:Input_Buffer_Differential_tb:1 ].
+          ELEC9701_Assignments:Differential_Comparator_tb:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var K = "3"
 Setting var L = "50n"
-Setting var W = "134n"
+Setting var R = "10k"
+Setting var W = "135n"
+Setting var X = "200m"
+Setting var Y = "100m"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/eleccds/simulation/ELEC9701_Assignments/Input_Buffer_Differential_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Input_Buffer_Differential_tb:1/netlist
+          /home/eleccds/simulation/ELEC9701_Assignments/Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Differential_Comparator_tb:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/eleccds/simulation/ELEC9701_Assignments/Input_Buffer_Differential_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Input_Buffer_Differential_tb:1
+          /home/eleccds/simulation/ELEC9701_Assignments/Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Differential_Comparator_tb:1
 
 
 *Info*    Creating Netlist for Point ID (2 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov  7 22:32:29 2024
-End netlisting Nov  7 22:32:29 2024
+Begin Incremental Netlisting Nov  8 17:06:53 2024
+End netlisting Nov  8 17:06:53 2024
 
 Netlisting Statistics:
-	Number of components:   18
+	Number of components:   14
 
 	Elapsed time:          0.0s
 Errors: 0	Warnings: 0
@@ -67,10 +69,10 @@ compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          ELEC9701_Assignments:Input_Buffer_Differential_tb:1 ] for
+          ELEC9701_Assignments:Differential_Comparator_tb:1 ] for
           Point ID (2 1).
 
-Delete psf data in /home/eleccds/simulation/ELEC9701_Assignments/Input_Buffer_Differential_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Input_Buffer_Differential_tb:1/psf.
+Delete psf data in /home/eleccds/simulation/ELEC9701_Assignments/Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Differential_Comparator_tb:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -86,7 +88,7 @@ reading simulation data...
 
 
 *Info*    Run complete for Point ID (2 1) on testbench [
-          ELEC9701_Assignments:Input_Buffer_Differential_tb:1 ].
+          ELEC9701_Assignments:Differential_Comparator_tb:1 ].
 
 
 
