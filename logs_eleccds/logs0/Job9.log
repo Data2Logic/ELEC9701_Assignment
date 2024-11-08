@@ -41,8 +41,8 @@ Resetting statistical vars
 Setting var L = "50n"
 Setting var R = "10k"
 Setting var W = "135n"
-Setting var X = "200m"
-Setting var Y = "100m"
+Setting var X = "0"
+Setting var Y = "300m"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
@@ -56,11 +56,11 @@ Setting temp(T) = 27
 *Info*    Creating Netlist for Point ID (4 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov  8 17:14:05 2024
-End netlisting Nov  8 17:14:05 2024
+Begin Incremental Netlisting Nov  8 21:11:43 2024
+End netlisting Nov  8 21:11:43 2024
 
 Netlisting Statistics:
-	Number of components:   14
+	Number of components:   26
 
 	Elapsed time:          0.0s
 Errors: 0	Warnings: 0
