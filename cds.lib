@@ -5,3 +5,5 @@ DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
 DEFINE NCSU_TechLib_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
 DEFINE NCSU_Devices_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
 DEFINE ELEC9701_Assignments /home/eleccds/cadence/ELEC9701_Assignments
+#Removed by ddDeleteObj: DEFINE Xinji_Lib /home/eleccds/cadence/Xinji_Lib
+DEFINE 9701 /home/eleccds/cadence/9701

@@ -1,16 +1,16 @@
-\# Program start time:     UTC 2024.11.08 11:22:42.671
-\# Local time: AEDT (UTC+11:00) 2024.11.08 22:22:42.671
+\# Program start time:     UTC 2024.11.24 00:13:56.234
+\# Local time: AEDT (UTC+11:00) 2024.11.24 11:13:56.234
 \o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 12/04/2018 19:24 (sjfhw316) $
 \o Hierarchy:		/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.7-64b.500.23  (64-bit addresses)
-\# Command line:	/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso20102 -mpshost localhost.localdomain -davinciService DaVinciService_20102_1731064958 -log /home/eleccds/cadence/logs_eleccds/logs0/Job0.log -licenseLockFileName /home/eleccds/cadence/.tmp_eleccds/.localhost.localdomain_20102 -nograph -nostdin -axlChildIdFlag 0
+\# Command line:	/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso6566 -mpshost localhost.localdomain -davinciService DaVinciService_6566_1732407231 -log /home/eleccds/cadence/logs_eleccds/logs0/Job0.log -licenseLockFileName /home/eleccds/cadence/.tmp_eleccds/.localhost.localdomain_6566 -nograph -nostdin -axlChildIdFlag 0
 \# Host name (type):	localhost.localdomain (x86_64)
 \# Operating system:	Linux 3.10.0-1160.71.1.el7.x86_64 #1 SMP Wed Jun 15 08:55:08 UTC 2022
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	:95 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 20990)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 13184)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        464 MB
-\# Available memory:	      5,055 MB
+\# Initial sbrk value:	        461 MB
+\# Available memory:	      4,993 MB
 \# System memory:	      7,757 MB
-\# Maximum memory size:	      7,368 MB
-\# Max mem available:	      5,130 MB
+\# Maximum memory size:	      7,371 MB
+\# Max mem available:	      5,068 MB
 \# Initial memory used:	         75 MB
 \#        process size:	      1,051 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 1.00/1.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		eleccds
 \o Working Directory:	localhost.localdomain:/home/eleccds/cadence
-\# Process Id:		21029
+\# Process Id:		13203
 \o 
 \o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
@@ -66,13 +66,10 @@
 \o Loading caa.cxt 
 \o Loading adexlCore.cxt 
 \o Loading adexl.cxt 
-\# Available memory:          4,948 MB at UTC 2024.11.08 11:22:52.746
-\# Memory report: Maximum memory size now 5,127 MB at UTC 2024.11.08 11:22:52.746
-\# Thread usage report: 2 active threads, active load 1.00 at UTC 2024.11.08 11:22:52.746
-\# Memory report: using         179 MB, process size 1,275 MB at UTC 2024.11.08 11:22:52.747
+\# Memory report: using         179 MB, process size 1,275 MB at UTC 2024.11.24 00:13:57.738
 \o *Info*    Exporting services from client ... 
 \o 
-\o *INFO* (icLic-303) virtuoso: PID=21029, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
+\o *INFO* (icLic-303) virtuoso: PID=13203, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
 \o //
 \o //  Calibre Skill Interface * (v2019.1_18.11) *
 \o //
@@ -128,11 +125,510 @@
 \o Loading pe.cxt 
 \a _treeSetOpcGUI(t)
 \r t
-\o Job 0 timed out after no activity in 300 seconds.
+\o Loading vqp.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = 9701
+\o 	Cell         = finnal
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/eleccds/cadence/9701/finnal/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/1/9701:finnal:1
+\o 	Results Loc  = /home/eleccds/simulation/9701/finnal/maestro/results/maestro
+\o 	Project Dir  = /home/eleccds/simulation
+\o 	Setup DB loc = /home/eleccds/cadence/9701/finnal/maestro
+\o 	File Encoding = 0
+\o 
+\o 
 \o Loading simui.cxt 
+\o *INFO* (icLic-304) Start to connect to parent process (session=virtuoso6566, host=localhost.localdomain). Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o *INFO* (icLic-305) Step 1: Connecting to parent. Spent time is 0 seconds.
+\o *INFO* (icLic-309) The registration of the child 13203 within 90 seconds is being processed ...
+\o *INFO* (icLic-310) The result of registration is true. Spend time is 0 seconds.
+\o *INFO* (icLic-308) The end of connection. Result is true. Total spent time is 0 seconds.
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o *Info*    Run start for points ((0 1) (0 2) (0 3) (0 4) (0 5) (0 6)
+\o           (0 7) (0 8) (0 9) (0 10))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [ 9701:finnal:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var F = "100K"
+\o Setting var T = "10n"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/1/9701:finnal:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/1/9701:finnal:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /usr/local/cadence/IC617-500-23/tools.lnx86/dfII/etc/si/control.spectre /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/1/9701:finnal:1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Nov 24 11:13:59 2024
+\# Memory report: using         282 MB, process size 1,383 MB at UTC 2024.11.24 00:13:59.076
+\o End netlisting Nov 24 11:13:59 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   57
+\o 
+\o 	Elapsed time:          1.0s (57.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
+\o           ID (0 1).
+\o 
+\o Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/1/9701:finnal:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [
+\o           9701:finnal:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 2) on testbench [ 9701:finnal:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var F = "200K"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/2/9701:finnal:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
+\o           ID (0 2).
+\o 
+\o Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/2/9701:finnal:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 2) on testbench [
+\o           9701:finnal:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 3) on testbench [ 9701:finnal:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var F = "300K"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/3/9701:finnal:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
+\o           ID (0 3).
+\o 
+\o Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/3/9701:finnal:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 3) on testbench [
+\o           9701:finnal:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 4) on testbench [ 9701:finnal:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var F = "400K"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/4/9701:finnal:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
+\o           ID (0 4).
+\o 
+\o Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/4/9701:finnal:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 4) on testbench [
+\o           9701:finnal:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 5) on testbench [ 9701:finnal:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var F = "500K"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/5/9701:finnal:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
+\o           ID (0 5).
+\o 
+\o Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/5/9701:finnal:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 5) on testbench [
+\o           9701:finnal:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 6) on testbench [ 9701:finnal:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var F = "600K"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/6/9701:finnal:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
+\o           ID (0 6).
+\o 
+\o Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/6/9701:finnal:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 6) on testbench [
+\o           9701:finnal:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 7) on testbench [ 9701:finnal:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var F = "700K"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/7/9701:finnal:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
+\o           ID (0 7).
+\o 
+\o Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/7/9701:finnal:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 7) on testbench [
+\o           9701:finnal:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 8) on testbench [ 9701:finnal:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var F = "800K"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/8/9701:finnal:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
+\o           ID (0 8).
+\o 
+\o Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/8/9701:finnal:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 8) on testbench [
+\o           9701:finnal:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 9) on testbench [ 9701:finnal:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var F = "900K"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/9/9701:finnal:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
+\o           ID (0 9).
+\o 
+\o Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/9/9701:finnal:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 9) on testbench [
+\o           9701:finnal:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 10) on testbench [ 9701:finnal:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var F = "1M"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/10/9701:finnal:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
+\o           ID (0 10).
+\o 
+\o Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/10/9701:finnal:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 10) on testbench [
+\o           9701:finnal:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Completed simulation for points ((0 1) (0 2) (0 3) (0 4) (0
+\o           5) (0 6) (0 7) (0 8) (0 9) (0 10)).
+\o 
+\# Available memory:          4,960 MB at UTC 2024.11.24 00:14:06.441
+\# Memory report: Maximum memory size now 5,267 MB at UTC 2024.11.24 00:14:06.441
+\# Thread usage report: 2 active threads, active load 1.00 at UTC 2024.11.24 00:14:06.441
+\o Job 0 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
 \o 
 \o *Info*    Received signal SIGTERM.
 \o 
 \o 
-\# Memory report: on exit            211 MB, process size 1,311 MB at UTC 2024.11.08 11:27:55.510
-\# Memory report: peak usage         211 MB, process size 1,311 MB
+\# Memory report: on exit            307 MB, process size 1,421 MB at UTC 2024.11.24 00:19:04.300
+\# Memory report: peak usage         307 MB, process size 1,421 MB
