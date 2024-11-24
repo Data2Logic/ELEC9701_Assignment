@@ -6,17 +6,17 @@
 
 *Info*    Configuring the session ...
 
-	Library      = 9701
-	Cell         = finnal
+	Library      = ELEC9701_Assignments
+	Cell         = Completed_Differential_Comparator_tb
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
 	State Name   = ExplorerRun.0
-	Results DB   = /home/eleccds/cadence/9701/finnal/maestro/results/maestro/ExplorerRun.0.rdb
-	Results Dir  = /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/1/9701:finnal:1
-	Results Loc  = /home/eleccds/simulation/9701/finnal/maestro/results/maestro
+	Results DB   = /home/eleccds/cadence/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0.rdb
+	Results Dir  = /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
+	Results Loc  = /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro
 	Project Dir  = /home/eleccds/simulation
-	Setup DB loc = /home/eleccds/cadence/9701/finnal/maestro
+	Setup DB loc = /home/eleccds/cadence/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro
 	File Encoding = 0
 
 
@@ -31,69 +31,93 @@
 
 
 
-*Info*    Run start for Point ID (4 1) on testbench [ 9701:finnal:1 ].
+*Info*    Run start for Point ID (5 1) on testbench [
+          ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
+          ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var F = "0"
-Setting var T = "100n"
-Setting var V1n = "0.45"
-Setting var V1p = "0.5"
-Setting var V2n = "0.6"
-Setting var V2p = "0.6"
+Setting var R = "10k"
+Setting var V1n = "0.2"
+Setting var V1p = "0.8"
+Setting var V2n = "0.1"
+Setting var V2p = "0.2"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/1/9701:finnal:1/netlist
+          /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/1/9701:finnal:1
+          /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
 
 
-*Info*    Creating Netlist for Point ID (4 1)
+*Info*    Creating Netlist for Point ID (5 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov 24 15:27:01 2024
-WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
-compared to the last session in the current run directory. The netlist(s)
-generated in the last netlisting session cannot be reused for incremental
-netlisting. Therefore re-netlisting the design.
+Begin Incremental Netlisting Nov 24 18:26:08 2024
+ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
 
-End netlisting Nov 24 15:27:01 2024
+ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
 
-Netlisting Statistics:
-	Number of components:   57
+End netlisting Nov 24 18:26:08 2024
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
 
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
-      ...successful.
-compose simulator input file...
-      ...successful.
-
-*Info*    Running simulation on testbench [ 9701:finnal:1 ] for Point
-          ID (4 1).
-
-Delete psf data in /home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0/1/9701:finnal:1/psf.
-compose simulator input file...
-      ...successful.
-start simulator if needed...
-      ...successful.
-simulate...
-To view the simulator output, right-click on the test name, result 
-name, or any value in the "Results" tab of the Outputs section and 
-choose "Output Log" menu option.
-INFO (ADE-3071): Simulation completed successfully.
-reading simulation data...
-      ...successful.
-*Info*    Client has finished evaluating ... 
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
 
 
-*Info*    Run complete for Point ID (4 1) on testbench [
-          9701:finnal:1 ].
 
+
+
+
+
+
+
+*Info*    Run start for Point ID (5 1) on testbench [
+          ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
+          ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var R = "10k"
+Setting var V1n = "0.2"
+Setting var V1p = "0.8"
+Setting var V2n = "0.1"
+Setting var V2p = "0.2"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
+
+
+*Info*    Creating Netlist for Point ID (5 1)
+
+generate netlist...
+Begin Incremental Netlisting Nov 24 18:26:18 2024
+ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+End netlisting Nov 24 18:26:18 2024
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
 
 
 

@@ -29,20 +29,20 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>L
-						<value>50n</value>
-					</var>
 					<var>R
 						<value>10k</value>
 					</var>
-					<var>W
-						<value>134n</value>
+					<var>V1n
+						<value>0.2</value>
 					</var>
-					<var>X
-						<value>900m</value>
+					<var>V1p
+						<value>0.8</value>
 					</var>
-					<var>Y
-						<value>100m</value>
+					<var>V2n
+						<value>0.1</value>
+					</var>
+					<var>V2p
+						<value>0.2</value>
 					</var>
 				</vars>
 				<origoptions>
@@ -130,20 +130,20 @@
 							</option>
 						</tooloptions>
 						<vars>
-							<var>L
-								<value>50n</value>
-							</var>
 							<var>R
 								<value>10k</value>
 							</var>
-							<var>W
-								<value>134n</value>
+							<var>V1n
+								<value>0.2</value>
 							</var>
-							<var>X
-								<value>900m</value>
+							<var>V1p
+								<value>0.8</value>
 							</var>
-							<var>Y
-								<value>100m</value>
+							<var>V2n
+								<value>0.1</value>
+							</var>
+							<var>V2p
+								<value>0.2</value>
 							</var>
 						</vars>
 						<origoptions>
@@ -261,7 +261,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 8 18:03:37 2024</timestamp>
+			<timestamp>Nov 24 18:48:07 2024</timestamp>
 			<resultsname>/home/eleccds/cadence/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -269,7 +269,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/localhost.localdomain_eleccds_180337287</localpsfdir>
+			<localpsfdir>/tmp/localhost.localdomain_eleccds_184807482</localpsfdir>
 			<psfdir>/home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <statedb ICVersion="IC6.1.7-64b.500.23" modifiedTime="11/24/2024 16:58:56" version="5">active
-	<Test Name="9701:finnal:1">
+	<Test Name="9701:Differential_Comparator:1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="descriptiontext" Type="string">"None"</field>
-			<field Name="projectDir" Type="string">"/home/eleccds/simulation/9701/finnal/maestro/results/maestro/.tmpADEDir_eleccds/9701:finnal:1/simulation"</field>
-			<field Name="designInfo" Type="list">("9701" "finnal" "schematic" "spectre")</field>
+			<field Name="projectDir" Type="string">"/home/eleccds/simulation/9701/Differential_Comparator/maestro/results/maestro/.tmpADEDir_eleccds/9701:Differential_Comparator:1/simulation"</field>
+			<field Name="designInfo" Type="list">("9701" "Differential_Comparator" "schematic" "spectre")</field>
 		</component>
 		<component Name="rfstim" Type="skillTable">rfstim</component>
 		<component Name="analyses" Type="skillTable">asiEnvSaveTable

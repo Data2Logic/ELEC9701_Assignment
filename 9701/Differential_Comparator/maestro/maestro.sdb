@@ -6,11 +6,11 @@
 		</corners>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>9701:finnal:1
+			<test>9701:Differential_Comparator:1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>finnal</value>
+						<value>Differential_Comparator</value>
 					</option>
 					<option>lib
 						<value>9701</value>
@@ -30,7 +30,7 @@
 				</tooloptions>
 				<origoptions>
 					<option>cell
-						<value>finnal</value>
+						<value>Differential_Comparator</value>
 					</option>
 					<option>lib
 						<value>9701</value>
@@ -110,11 +110,11 @@
 				</corners>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test>9701:finnal:1
+					<test>9701:Differential_Comparator:1
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
-								<value>finnal</value>
+								<value>Differential_Comparator</value>
 							</option>
 							<option>lib
 								<value>9701</value>
@@ -134,7 +134,7 @@
 						</tooloptions>
 						<origoptions>
 							<option>cell
-								<value>finnal</value>
+								<value>Differential_Comparator</value>
 							</option>
 							<option>lib
 								<value>9701</value>
@@ -268,7 +268,7 @@
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
 			<timestamp>Nov 24 16:58:55 2024</timestamp>
-			<resultsname>/home/eleccds/cadence/9701/finnal/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<resultsname>/home/eleccds/cadence/9701/Differential_Comparator/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -276,10 +276,10 @@
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
 			<localpsfdir>/tmp/localhost.localdomain_eleccds_165855777</localpsfdir>
-			<psfdir>/home/eleccds/simulation/9701/finnal/maestro/results/maestro/ExplorerRun.0</psfdir>
-			<simdir>$AXL_PROJECT_DIR/9701/finnal/maestro/results/maestro/ExplorerRun.0</simdir>
+			<psfdir>/home/eleccds/simulation/9701/Differential_Comparator/maestro/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>/home/eleccds/simulation/9701/Differential_Comparator/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/eleccds/cadence/9701/finnal/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<runlog>/home/eleccds/cadence/9701/Differential_Comparator/maestro/results/maestro/ExplorerRun.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
