@@ -40,10 +40,11 @@ Resetting statistical vars
 *Info*    Setting parameter values ...
 
 Setting var R = "10k"
-Setting var V1n = "0.2"
-Setting var V1p = "0.8"
-Setting var V2n = "0.1"
-Setting var V2p = "0.2"
+Setting var V1n = "0.451"
+Setting var V1p = "0.45"
+Setting var V2n = "0.7"
+Setting var V2p = "0.25"
+Setting var Vref = "0.45"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
@@ -57,67 +58,38 @@ Setting temp(T) = 27
 *Info*    Creating Netlist for Point ID (4 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov 24 18:12:03 2024
-ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
+Begin Incremental Netlisting Nov 24 21:18:35 2024
+End netlisting Nov 24 21:18:35 2024
 
-ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
 
-End netlisting Nov 24 18:12:03 2024
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
+*Info*    Running simulation on testbench [
+          ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
+          ] for Point ID (4 1).
 
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
+Delete psf data in /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
 
 
-
-
-
-
-
-
-
-*Info*    Run start for Point ID (4 1) on testbench [
+*Info*    Run complete for Point ID (4 1) on testbench [
           ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
           ].
 
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting var R = "10k"
-Setting var V1n = "0.2"
-Setting var V1p = "0.8"
-Setting var V2n = "0.1"
-Setting var V2p = "0.2"
-Setting temp(T) = 27
-
-*Info*    Netlist Directory =
-          /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1/netlist
-
-
-*Info*    Data Directory    =
-          /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
-
-
-*Info*    Creating Netlist for Point ID (4 1)
-
-generate netlist...
-Begin Incremental Netlisting Nov 24 18:12:13 2024
-ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
-
-ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
-
-End netlisting Nov 24 18:12:13 2024
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
-
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
 
 
 
