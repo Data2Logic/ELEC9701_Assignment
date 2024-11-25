@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-mpssession virtuoso6530 -mpshost localhost.localdomain 
+\o Arguments:		-mpssession virtuoso3764 -mpshost localhost.localdomain 
 \o Working Directory:	localhost.localdomain:/home/eleccds/cadence
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -12,135 +12,31 @@
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
-\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->libListBox->value = "9701"
-\a cdsLibManager->libLineEdit->value = "9701"
-\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellListBox->value = "Completed_Differential_Comparator_tb"
-\a cdsLibManager->cellLineEdit->value = "Completed_Differential_Comparator_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libListBox->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_TechLib_FreePDK45"
 \a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
 \a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
 \a cdsLibManager->cellListBox->value = "Completed_Differential_Comparator_tb"
 \a cdsLibManager->cellLineEdit->value = "Completed_Differential_Comparator_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellListBox->value = "Completed_Differential_Comparator_tb"
-\a cdsLibManager->cellLineEdit->value = "Completed_Differential_Comparator_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "9701"
-\a cdsLibManager->libLineEdit->value = "9701"
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "op"
-\a cdsLibManager->cellLineEdit->value = "op"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a lmgrLogShowPopup("mainListPopup2" 44 22 2 "symbol")
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a lmgrLogShowPopup("mainListPopup2" 26 6 2 "schematic")
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->libListBox->value = "9701"
-\a cdsLibManager->libLineEdit->value = "9701"
-\a cdsLibManager->cellListBox->value = "Nand-gate"
-\a cdsLibManager->cellLineEdit->value = "Nand-gate"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "Differential_Comparator"
-\a cdsLibManager->cellLineEdit->value = "Differential_Comparator"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->libListBox->value = "9701"
-\a cdsLibManager->libLineEdit->value = "9701"
-\a cdsLibManager->cellListBox->value = "Differential_Comparator"
-\a cdsLibManager->cellLineEdit->value = "Differential_Comparator"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
-\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellListBox->value = "Completed_Differential_Comparator_tb"
 \a cdsLibManager->cellLineEdit->value = "Completed_Differential_Comparator_tb"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->cellListBox 3 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
+\a cdsLibManager->libLineEdit->value = "ELEC9701_Assignments"
+\a cdsLibManager->cellListBox->value = "Completed_Differential_Comparator_tb"
+\a cdsLibManager->cellLineEdit->value = "Completed_Differential_Comparator_tb"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "ELEC9701_Assignments"
@@ -148,13 +44,10 @@
 \a cdsLibManager->cellListBox->value = "Completed_Differential_Comparator_tb"
 \a cdsLibManager->cellLineEdit->value = "Completed_Differential_Comparator_tb"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\a nrSetCurrentWindow(cdsLibManager)
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\o MPS service: shutdown
-\o libManager is exiting.
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a exit(0)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrResizeWindow(cdsLibManager list(-1 27 1280 857))
+\a nrResizeWindow(cdsLibManager list(-1 27 958 876))
+\a nrResizeWindow(cdsLibManager list(-1 27 1920 885))
