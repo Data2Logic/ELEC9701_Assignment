@@ -31,7 +31,7 @@
 
 
 
-*Info*    Run start for Point ID (3 1) on testbench [
+*Info*    Run start for Point ID (2 1) on testbench [
           ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
           ].
 
@@ -40,10 +40,14 @@ Resetting statistical vars
 *Info*    Setting parameter values ...
 
 Setting var R = "10k"
+Setting var T = "10n"
+Setting var T_signal = "0"
 Setting var V1n = "0.2"
-Setting var V1p = "0.8"
-Setting var V2n = "0.1"
-Setting var V2p = "0.2"
+Setting var V1p = "0.4"
+Setting var V2n = "0.2"
+Setting var V2p = "0.6"
+Setting var Vref = "0.45"
+Setting var W = "90n"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
@@ -54,70 +58,61 @@ Setting temp(T) = 27
           /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
 
 
-*Info*    Creating Netlist for Point ID (3 1)
+*Info*    Creating Netlist for Point ID (2 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov 24 18:10:44 2024
-ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
+Begin Incremental Netlisting Nov 25 11:29:22 2024
+WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+compared to the last session in the current run directory. The netlist(s)
+generated in the last netlisting session cannot be reused for incremental
+netlisting. Therefore re-netlisting the design.
 
-ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
+WARNING (ADE-6003): Terminal "clock", specified in the CDF termOrder, does not exist
+           in the cell-view "9701" "comparator" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Nov 25 11:29:22 2024
 
-End netlisting Nov 24 18:10:44 2024
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
+Netlisting Statistics:
+	Number of components:   65
 
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 2
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
+          ] for Point ID (2 1).
+
+Delete psf data in /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
 
 
-
-
-
-
-
-
-
-*Info*    Run start for Point ID (3 1) on testbench [
+*Info*    Run complete for Point ID (2 1) on testbench [
           ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
           ].
 
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting var R = "10k"
-Setting var V1n = "0.2"
-Setting var V1p = "0.8"
-Setting var V2n = "0.1"
-Setting var V2p = "0.2"
-Setting temp(T) = 27
-
-*Info*    Netlist Directory =
-          /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1/netlist
-
-
-*Info*    Data Directory    =
-          /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
-
-
-*Info*    Creating Netlist for Point ID (3 1)
-
-generate netlist...
-Begin Incremental Netlisting Nov 24 18:10:55 2024
-ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
-
-ERROR (OSSHNL-109): The cellview '9701/add-substractor/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
-
-End netlisting Nov 24 18:10:55 2024
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
-
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
 
 
 

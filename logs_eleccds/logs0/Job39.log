@@ -31,7 +31,7 @@
 
 
 
-*Info*    Run start for Point ID (30 1) on testbench [
+*Info*    Run start for Point ID (20 1) on testbench [
           ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
           ].
 
@@ -40,12 +40,17 @@ Resetting statistical vars
 *Info*    Setting parameter values ...
 
 Setting var R = "10k"
-Setting var T = "0.1n"
+Setting var T = "10n"
+Setting var T_signal_1n = "0"
+Setting var T_signal_1p = "0"
+Setting var T_signal_2n = "0"
+Setting var T_signal_2p = "0"
 Setting var V1n = "0.2"
-Setting var V1p = "0.4"
+Setting var V1p = "0.3"
 Setting var V2n = "0.2"
 Setting var V2p = "0.6"
 Setting var Vref = "0.45"
+Setting var W = "90n"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
@@ -56,10 +61,10 @@ Setting temp(T) = 27
           /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
 
 
-*Info*    Creating Netlist for Point ID (30 1)
+*Info*    Creating Netlist for Point ID (20 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov 24 22:45:51 2024
+Begin Incremental Netlisting Nov 25 12:52:03 2024
 WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
 compared to the last session in the current run directory. The netlist(s)
 generated in the last netlisting session cannot be reused for incremental
@@ -77,10 +82,10 @@ WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and
            ii) Select Library Name & Cell Name.
            iii) Click on the Edit button in the simulation information section of the
                 Edit CDF window.
-End netlisting Nov 24 22:45:51 2024
+End netlisting Nov 25 12:52:03 2024
 
 Netlisting Statistics:
-	Number of components:   65
+	Number of components:   73
 
 	Elapsed time:          0.0s
 Errors: 0	Warnings: 2
@@ -90,7 +95,7 @@ compose simulator input file...
 
 *Info*    Running simulation on testbench [
           ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
-          ] for Point ID (30 1).
+          ] for Point ID (20 1).
 
 Delete psf data in /home/eleccds/simulation/ELEC9701_Assignments/Completed_Differential_Comparator_tb/maestro/results/maestro/ExplorerRun.0/1/ELEC9701_Assignments:Completed_Differential_Comparator_tb:1/psf.
 compose simulator input file...
@@ -107,7 +112,7 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (30 1) on testbench [
+*Info*    Run complete for Point ID (20 1) on testbench [
           ELEC9701_Assignments:Completed_Differential_Comparator_tb:1
           ].
 
